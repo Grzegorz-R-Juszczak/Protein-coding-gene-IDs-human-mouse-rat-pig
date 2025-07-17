@@ -37,7 +37,7 @@ Arg
 Output data
 The updated official symbols together with information about their ambiguity, gene description and additional IDs is exported to the Final_search_results.csv file. Additionally, the script imports and saves biomaRt codes for selecting Ensembl databases (file EnsemblDatabases.csv), datasets (EnsemblDatasets.csv), filters (file EnsemblFilters.csv) and output data called attributes in Ensembl (EnsemblAttributes.csv). These data provide information about current code including the version of Ensembl used for data downloading (file EnsemblDatabases.csv) and enable code modifications including species (EnsemblDatasets.csv) and output data associated with updated genes (file EnsemblAttributes.csv).
 
-################################################################################################################################################################################################################################################################################
+##################################################################################################################################################################################################
 
 Program
 R_protein-coding unique.R
@@ -67,7 +67,7 @@ All_unique_protein_coding_symbols.csv (lists of unique gene symbols),
 Ensembl_multiplied_gene_symbols.csv (lists of gene symbols with more than one stable Ensembl ID) 
 Genes_without_gene_symbol.csv (lists of novel genes with assigned Ensembl IDs but without a gene symbol)
 
-################################################################################################################################################################################################################################################################################
+##################################################################################################################################################################################################
 
 Program
 R_venn between species comparison.R
@@ -92,7 +92,7 @@ mt-Co2
 Output data
 Venn.png file
 
-################################################################################################################################################################################################################################################################################
+##################################################################################################################################################################################################
 
 Program
 R_Ensembl multiplied gene symbols.R
@@ -123,7 +123,7 @@ Multiplied_symbols_TheSameChromosome_Different_strand.csv (list of alternative E
 Multiplied_symbols_TheSameChromosome_The_same_start.csv  (list of alternative Ensembl IDs that are assigned to the same chromosome and start position)
 Multiplied_symbols_TheSameChromosome_Different_start_final.csv (list of alternative Ensembl IDs that are assigned to the same chromosome but different start position)
 
-################################################################################################################################################################################################################################################################################
+##################################################################################################################################################################################################
 
 Program
 R_summary gene synonyms and official symbols.R
@@ -150,7 +150,7 @@ Unique_gene_synonyms.csv (lists of unique synonyms)
 Unique_gene_symbols.csv files (lists of official symbols)
 Venn.png (Venn diagram showing the number of gene synonyms, official symbols and the overlap between them)
 
-################################################################################################################################################################################################################################################################################
+##################################################################################################################################################################################################
 
 Program
 R_ambiguous official symbols.R
@@ -178,7 +178,7 @@ Ambiguous_symbols_protein_and_other.csv (cases of symbol ambiguity resulting fro
 mart_export_5.csv (list of ambiguous official symbols / synonyms grouped by gene synonym)
 Ambiguous_symbols_protein_protein_final.csv file (list of ambiguous official symbols / synonyms after final editing)
 
-################################################################################################################################################################################################################################################################################
+##################################################################################################################################################################################################
 
 Program
 R_ambiguous synonyms.R
@@ -205,7 +205,7 @@ Output data
 Ambiguous_gene_synonyms.csv file (list of ambiguous synonyms) 
 Ambiguous_gene_synonyms_final.csv (list of ambiguous synonyms after final editing) 
 
-################################################################################################################################################################################################################################################################################
+##################################################################################################################################################################################################
 
 Programs
 R_Ensembl novel genes human.R
@@ -254,7 +254,7 @@ Ensembl_RGD_NCBI_grouped.csv (Rat Ensembl data integrated with RGD and NCBI data
 Ensembl_HGNC_NCBI_grouped.csv (Human Ensembl data integrated with HGNC and NCBI data)
 Ensembl_VGNC_NCBI_grouped.csv (Pig Ensembl data integrated with VGNC and NCBI data)
 
-################################################################################################################################################################################################################################################################################
+##################################################################################################################################################################################################
 
 Program
 R_genes linked to ambiguous symbols.R
@@ -274,7 +274,7 @@ Ambiguous_symbols_protein_protein_final.csv file generated by the scipt R_ambigu
 Output data
 All_genes_linked_to_ambiguous_symbols.csv. (list of all genes linked to ambiguous symbols)
 
-################################################################################################################################################################################################################################################################################
+##################################################################################################################################################################################################
 
 Programs
 R_test of additional IDs in Ensembl Human.R
@@ -305,7 +305,7 @@ Multiplied_Ensembl_IDs_final.csv (list of Ensembl gene IDs assigned to more than
 Multiplied_NCBI_IDs_final.csv (list of NCBI gene IDs assigned to more than one official gene symbol in Ensembl database)
 Multiplied_Committee_IDs_final.csv (list of nomenclature committee (MGi, RGD, HGNC or VGNC)  gene IDs assigned to more than one official gene symbol in Ensembl database)
 
-################################################################################################################################################################################################################################################################################
+##################################################################################################################################################################################################
 
 Program
 R_HUGO test.R
@@ -323,7 +323,7 @@ Input file format
 Output data
 Verification_missing_HUGO_IDs.csv (list of Ensembl genes with missing  HGNC IDs merged with gene identifiers retrieved directly from HGNC database)
 
-################################################################################################################################################################################################################################################################################
+##################################################################################################################################################################################################
 
 Program
 R_NCBI test.R
@@ -356,7 +356,7 @@ Output data
 Verification_missing_NCBI_IDs.csv (list of Ensembl genes with missing  NCBI IDs merged with gene identifiers retrieved directly from NCBI database)
 Summary_NCBI_IDs_ambiguous_in_Ensembl.csv (list of NCBI IDs assigned in Ensembl database to more than one official gene symbol together with gene identifiers retrieved directly from NCBI database)
 
-################################################################################################################################################################################################################################################################################
+##################################################################################################################################################################################################
 
 Program
 R_RGD test.R
@@ -376,7 +376,7 @@ Output data
 Summary_RGD_IDs_ambiguous_in_Ensembl.csv (list of RGD IDs assigned in Ensembl database to more than one official gene symbol together with gene identifiers retrieved directly from RGD database)
 
 
-################################################################################################################################################################################################################################################################################
+##################################################################################################################################################################################################
 
 Program
 R_vgnac test.R
