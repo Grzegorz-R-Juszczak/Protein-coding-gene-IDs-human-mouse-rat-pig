@@ -29,9 +29,12 @@ Data requirement is a list of gene symbols in the csv file named InputData with 
 
 Example of input data (data arrangement)
 
-Input_gene_symbols 
-Ttr 
-Kl 
+Input_gene_symbols
+
+Ttr
+
+Kl
+
 Arg 
 
 Output data
