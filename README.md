@@ -1,10 +1,9 @@
 # Protein-coding-gene-IDs-human-mouse-rat-pig
-
 Repository Protein-coding-gene-IDs-human-mouse-rat-pig
 
 Detailed information is available in manuscript “Protein-coding genes in humans and model mammals (mouse, rat and pig): gene identifiers and disambiguation of gene nomenclature retrieved from the Ensembl genome browser” submitted to BMC Genomics (Juszczak et al., 2025). Below we provide short description of repository and R programs. 
 
-Application                                                                                                                       
+Application
 The repository contains programs enabling extraction of information about gene identifiers from Ensembl / Biomart genome datasets.
 
 Background
@@ -26,6 +25,13 @@ The program imports list of gene symbols, performs a double Ensembl search with 
 
 Input file format
 Data requirement is a list of gene symbols in the csv file named InputData with one column named Input_gene_symbols 
+
+Example of input data (data arrangement)
+
+Input_gene_symbols
+Ttr
+Kl
+Arg
 
 Output data
 The updated official symbols together with information about their ambiguity, gene description and additional IDs is exported to the Final_search_results.csv file. Additionally, the script imports and saves biomaRt codes for selecting Ensembl databases (file EnsemblDatabases.csv), datasets (EnsemblDatasets.csv), filters (file EnsemblFilters.csv) and output data called attributes in Ensembl (EnsemblAttributes.csv). These data provide information about current code including the version of Ensembl used for data downloading (file EnsemblDatabases.csv) and enable code modifications including species (EnsemblDatasets.csv) and output data associated with updated genes (file EnsemblAttributes.csv).
