@@ -4,7 +4,7 @@ Repository Protein-coding-gene-IDs-human-mouse-rat-pig
 
 Detailed information is available in manuscript “Protein-coding genes in humans and model mammals (mouse, rat and pig): gene identifiers and disambiguation of gene nomenclature retrieved from the Ensembl genome browser” submitted to BMC Genomics (Juszczak et al., 2025). Below we provide short description of repository and R programs. 
 
-Application
+Application                                                                                                                       
 The repository contains programs enabling extraction of information about gene identifiers from Ensembl / Biomart genome datasets.
 
 Background
