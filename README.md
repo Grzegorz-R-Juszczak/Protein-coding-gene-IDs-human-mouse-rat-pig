@@ -29,10 +29,10 @@ Data requirement is a list of gene symbols in the csv file named InputData with 
 
 Example of input data (data arrangement)
 
-Input_gene_symbols
-Ttr
-Kl
-Arg
+Input_gene_symbols 
+Ttr 
+Kl 
+Arg 
 
 Output data
 The updated official symbols together with information about their ambiguity, gene description and additional IDs is exported to the Final_search_results.csv file. Additionally, the script imports and saves biomaRt codes for selecting Ensembl databases (file EnsemblDatabases.csv), datasets (EnsemblDatasets.csv), filters (file EnsemblFilters.csv) and output data called attributes in Ensembl (EnsemblAttributes.csv). These data provide information about current code including the version of Ensembl used for data downloading (file EnsemblDatabases.csv) and enable code modifications including species (EnsemblDatasets.csv) and output data associated with updated genes (file EnsemblAttributes.csv).
