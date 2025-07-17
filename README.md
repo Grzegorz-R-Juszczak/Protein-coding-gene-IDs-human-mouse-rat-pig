@@ -1,39 +1,39 @@
 # Protein-coding-gene-IDs-human-mouse-rat-pig
-Repository Protein-coding-gene-IDs-human-mouse-rat-pig
+Repository Protein-coding-gene-IDs-human-mouse-rat-pig                                                                                 
 
 Detailed information is available in manuscript “Protein-coding genes in humans and model mammals (mouse, rat and pig): gene identifiers and disambiguation of gene nomenclature retrieved from the Ensembl genome browser” submitted to BMC Genomics (Juszczak et al., 2025). Below we provide short description of repository and R programs. 
 
-Application
+Application                                                                                                                            
 The repository contains programs enabling extraction of information about gene identifiers from Ensembl / Biomart genome datasets.
 
-Background
+Background                                                                                                                            
 Gene nomenclature changed over time due to new discoveries and between-species standardization efforts. Therefore, it contains both current official symbols and synonyms (aliases) that were used in the past. The issue is further complicated by the fact that each gene has a different history of scientific investigation and associated assignment of gradually refined names. Therefore, genetic datasets contain both gene symbols that did not changed since the time of publication (official symbols) and some number of obsolete symbols (synonyms) that were updated after the publication of the data. This means that comparison between genetic datasets obtained from different sources requires standardization of gene nomenclature. 
  
 ##################################################################################################################################################################################################
 
-Programs R_Ensembl gene symbol search (REgeness) adjusted for individual species:
-R_Ensembl gene symbol search mouse.R
-R_ensembl gene symbol search human.R
-R_ensembl gene symbol search pig.R
-R_ensembl gene symbol search rat.R
+Programs R_Ensembl gene symbol search (REgeness) adjusted for individual species:                                                       
+R_Ensembl gene symbol search mouse.R                                                                                                    
+R_ensembl gene symbol search human.R                                                                                                    
+R_ensembl gene symbol search pig.R                                                                                                      
+R_ensembl gene symbol search rat.R                                                                                                     
 
-Application
+Application                                                                                                                             
 Updating gene nomenclature in case when only gene symbols are available and checking for ambiguous assignment between gene symbols.  Symbol ambiguity occurs in case when different genes share the same symbol created from different gene names. 
 
-Description
+Description                                                                                                                             
 The program imports list of gene symbols, performs a double Ensembl search with input symbols treated as official symbols and synonyms and integrates data to provide a single list of updated symbols with assigned additional IDs and annotation about unique or ambiguous association between input and output gene symbols. Running the script requires installation of the biomaRt, tidyr, dplyr, purrr and readr R packages. 
 
-Input file format
+Input file format                                                                                                                       
 Data requirement is a list of gene symbols in the csv file named InputData with one column named Input_gene_symbols 
 
-Example of input data (data arrangement)
+Example of input data (data arrangement)                                                                                                
 
-Input_gene_symbols
-Ttr
-Kl
-Arg
+Input_gene_symbols                                                                                                                      
+Ttr                                                                                                                                     
+Kl                                                                                                                                      
+Arg                                                                                                                                  
 
-Output data
+Output data                                                                                                                             
 The updated official symbols together with information about their ambiguity, gene description and additional IDs is exported to the Final_search_results.csv file. Additionally, the script imports and saves biomaRt codes for selecting Ensembl databases (file EnsemblDatabases.csv), datasets (EnsemblDatasets.csv), filters (file EnsemblFilters.csv) and output data called attributes in Ensembl (EnsemblAttributes.csv). These data provide information about current code including the version of Ensembl used for data downloading (file EnsemblDatabases.csv) and enable code modifications including species (EnsemblDatasets.csv) and output data associated with updated genes (file EnsemblAttributes.csv).
 
 ##################################################################################################################################################################################################
