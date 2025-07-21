@@ -115,7 +115,7 @@ ENSMUSG00000020807,4933427D14Rik,11,72044755,72098285,-1
 
 Output data                                                                                                                             
 Genes_with_scaffold_locus.csv (list of IDs assigned to scaffolds)                                                                  
-Multiplied_symbols_DifferentChromosemes_Somatic.csv (list of alternative Ensembl IDs that are assigned to different chromosomes including at least one somatic chromosome)                                                                                          
+Multiplied_symbols_DifferentChromosemes_Autosomal.csv (list of alternative Ensembl IDs that are assigned to different chromosomes including at least one autosomal chromosome)                                                                                          
 Multiplied_symbols_DifferentChromosemes_Sex.csv (list of alternative Ensembl IDs that are assigned only to sex chromosomes)           
 Multiplied_symbols_TheSameChromosome_Different_strand.csv (list of alternative Ensembl IDs that are assigned to the same chromosome but opposite strands)                                                                                                                     
 Multiplied_symbols_TheSameChromosome_The_same_start.csv  (list of alternative Ensembl IDs that are assigned to the same chromosome and start position)                                                                                                                     
