@@ -51,7 +51,7 @@ head(symbol_grouped_Duplicated_DifferentChromosemes, n=20) # showing first n row
 
 symbol_grouped_Duplicated_DifferentChromosemes_Somatic = dplyr::filter(symbol_grouped_Duplicated_DifferentChromosemes, Somatic == "TRUE") # selection of gene symbols assigned to somatic chromosomes
 head(symbol_grouped_Duplicated_DifferentChromosemes_Somatic, n=10) # showing first n rows
-readr::write_csv(x = symbol_grouped_Duplicated_DifferentChromosemes_Somatic, file = "Multiplied_symbols_DifferentChromosemes_Somatic.csv")
+readr::write_csv(x = symbol_grouped_Duplicated_DifferentChromosemes_Somatic, file = "Multiplied_symbols_DifferentChromosemes_Autosomal.csv")
 
 symbol_grouped_Duplicated_DifferentChromosemes_Sex = dplyr::filter(symbol_grouped_Duplicated_DifferentChromosemes, Somatic == "FALSE") # selection of gene symbols assigned only to sex chromosomes
 head(symbol_grouped_Duplicated_DifferentChromosemes_Sex, n=10) # showing first n rows
