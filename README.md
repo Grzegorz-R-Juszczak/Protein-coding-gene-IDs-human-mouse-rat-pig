@@ -245,7 +245,7 @@ File GENES_RAT.txt downloaded from https://download.rgd.mcw.edu/data_release/RAT
 File results.txt downloaded from https://biomart.genenames.org/ with following attributes: HGNC ID, Status, Approved symbol, Approved name and  Ensembl gene ID.                                                                                                     
 
 9) VGNC data pig genes                                                                                                              
-File pig_vgnc_gene_set_All.txt downloaded from https://vertebrate.genenames.org/download/statistics-and-files/. 
+File pig_vgnc_gene_set_All.txt downloaded from https://vertebrate.genenames.org/download/statistics-and-files/.                  
 Dada selection:                                                                                                                  
 Filter statistics and download files by species: Pig                                                                               
 Filter statistics and download files by chromosome: All                                                                                 
