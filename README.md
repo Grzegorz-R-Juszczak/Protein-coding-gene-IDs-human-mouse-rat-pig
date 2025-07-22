@@ -231,22 +231,25 @@ ENSMUSG00000074720,,,
 ENSMUSG00000079190,,,100041057                                                                                                         
 ENSMUSG00000079192,,,                                                                                                                 
 
-2) MGI	                                                                                                                               
+2) MGI mouse genes	                                                                                                                    
 Files MRK_List2.rpt and MRK_ENSEMBL.rpt downloaded from  https://www.informatics.jax.org/downloads/reports/index.html. Compressed files should be unzipped before importing to the R studio.                     
 
-3) NCBI data. ncbi_dataset.tsv file downloaded from 	
-https://www.ncbi.nlm.nih.gov/datasets/gene/  with selected all columns.
+3) NCBI data                                                                                                                       
+ncbi_dataset.tsv file downloaded from 	                                                                                         
+https://www.ncbi.nlm.nih.gov/datasets/gene/  with selected all columns.                                                                 
 
-4) RGD rat genes.  File GENES_RAT.txt downloaded from https://download.rgd.mcw.edu/data_release/RAT/
+5) RGD rat genes                                                                                                                 
+File GENES_RAT.txt downloaded from https://download.rgd.mcw.edu/data_release/RAT/                                              
 
-5) HGNC human genes. File results.txt downloaded from https://biomart.genenames.org/ with following attributes: HGNC ID, Status, Approved symbol, Approved name and  Ensembl gene ID. 
+7) HGNC human genes                                                                                                                
+File results.txt downloaded from https://biomart.genenames.org/ with following attributes: HGNC ID, Status, Approved symbol, Approved name and  Ensembl gene ID.                                                                                                     
 
-6) VGNC data pig genes. File pig_vgnc_gene_set_All.txt downloaded from 
-https://vertebrate.genenames.org/download/statistics-and-files/. 
-Dada selection:
-Filter statistics and download files by species: Pig
-Filter statistics and download files by chromosome: All 
-Statistics: Total Approved Symbols
+9) VGNC data pig genes                                                                                                              
+File pig_vgnc_gene_set_All.txt downloaded from https://vertebrate.genenames.org/download/statistics-and-files/. 
+Dada selection:                                                                                                                  
+Filter statistics and download files by species: Pig                                                                               
+Filter statistics and download files by chromosome: All                                                                                 
+Statistics: Total Approved Symbols                                                                                                 
 
 Output data                                                                                                                             
 Ensembl_MGI_NCBI_grouped.csv (Mouse Ensembl data integrated with MGI and NCBI data)                                                   
