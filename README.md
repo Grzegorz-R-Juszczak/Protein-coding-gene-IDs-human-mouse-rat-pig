@@ -358,7 +358,7 @@ https://www.ncbi.nlm.nih.gov/datasets/gene/GCF_000001405.40/ (human reference ge
 Output data                                                                                                                             
 Verification_missing_NCBI_IDs.csv (list of Ensembl genes with missing  NCBI IDs merged with gene identifiers retrieved directly from NCBI database)                                                                                                                   
 Summary_NCBI_IDs_ambiguous_in_Ensembl.csv (list of NCBI IDs assigned in Ensembl database to more than one official gene symbol together with gene identifiers retrieved directly from NCBI database)                                                                           
-
+NCBI_IDs_ambiguous_in_NCBI.csv (list of NCBI IDs linked with more than one gene symbol in NCBI data)                                 
 ##################################################################################################################################################################################################
 
 Program                                                                                                                               
