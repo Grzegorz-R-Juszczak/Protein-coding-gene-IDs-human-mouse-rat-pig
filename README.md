@@ -377,7 +377,9 @@ Input file format
 
 Output data                                                                                                                  
 Summary_RGD_IDs_ambiguous_in_Ensembl.csv (list of RGD IDs assigned in Ensembl database to more than one official gene symbol together with gene identifiers retrieved directly from RGD database)
-
+Ensembl_RGD_IDs_missing_in_RGD.csv (list of RGD IDs from Ensembl that are missing in proprietary RGD database)                       
+RGD_IDs_ambiguous_in_RGD.csv  (list of RGD IDs linked with more than one gene symbol in RGD data)                                     
+                                                                                                                                        
 
 ##################################################################################################################################################################################################
 
