@@ -273,6 +273,10 @@ Filter statistics and download files by species: Pig
 Filter statistics and download files by chromosome: All                                                                                 
 Statistics: Total Approved Symbols                                                                                                 
 
+[ Trial dataset for this R script can be downloaded from:                                                                             
+https://data.mendeley.com/datasets/454s2vw255/1/files/fd399949-da35-4e3a-897a-acb831fcf0cf (mouse genes)                               
+The data should be extracted from the compressed folder before running the script.]             
+
 Output data                                                                                                                             
 Ensembl_MGI_NCBI_grouped.csv (Mouse Ensembl data integrated with MGI and NCBI data)                                                   
 Ensembl_RGD_NCBI_grouped.csv (Rat Ensembl data integrated with RGD and NCBI data)                                                     
