@@ -1,3 +1,9 @@
+########################################################################################################
+#### Trial dataset for this R script can be downloaded from                                         ####
+#### https://data.mendeley.com/datasets/454s2vw255/1/files/faae5be7-e32d-4b7e-8c7d-1c3970fc86d0     ####
+#### The data should be extracted from the compressed folder before running the script.             #### 
+########################################################################################################
+
 Mouse <- read.csv("Mice_All_unique_protein_coding_symbols.csv", header = TRUE) # bez header = FALSE # data import
 head(Mouse, n=5) # showing first n rows
 
