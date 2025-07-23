@@ -1,3 +1,9 @@
+########################################################################################################
+#### Trial dataset for this R script can be downloaded from                                         ####
+#### https://data.mendeley.com/datasets/454s2vw255/1/files/daab6ea5-962c-4eb4-a9d1-2a4d7c2176a0     ####
+#### The data should be extracted from the compressed folder before running the script.             #### 
+########################################################################################################
+
 ### Part A: identification of ambiguous official gene symbols
 
 library(dplyr) # package selection
