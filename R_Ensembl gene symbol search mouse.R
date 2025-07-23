@@ -1,3 +1,9 @@
+########################################################################################################
+#### Trial dataset for this R script can be downloaded from                                         ####
+#### https://data.mendeley.com/datasets/454s2vw255/1/files/bba53b25-29fe-4c55-9564-8ad4fcb6ec62     ####
+#### The data should be extracted from the compressed folder before running the script.             #### 
+########################################################################################################
+
 InputData <- read.delim('InputData.csv', sep=',', header = TRUE) # data import
 head(InputData, n = 20) # showing first n rows
 
