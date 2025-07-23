@@ -346,6 +346,7 @@ Phax,ENSMUSG00000008301,56698,MGI:1891839
 https://data.mendeley.com/datasets/454s2vw255/1/files/edbf75de-5f56-4c37-b855-d6e3f91160f6 (mouse data)                                 
 https://data.mendeley.com/datasets/454s2vw255/1/files/b8d3ea22-00df-4645-b40b-298cbf862363 (rat data)                                   
 https://data.mendeley.com/datasets/454s2vw255/1/files/79a080ef-3dfb-45e4-88d0-c9f1274d9b9c (human data)                                 
+https://data.mendeley.com/datasets/454s2vw255/1/files/e079cac4-6f67-45cd-b316-43004917f70c (pig data)                                   
 The data should be extracted from the compressed folder before running the script.]             
 
 Output data                                                                                                                            
