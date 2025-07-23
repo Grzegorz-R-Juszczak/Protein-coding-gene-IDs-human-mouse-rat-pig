@@ -320,6 +320,10 @@ mt-Nd1,ENSMUSG00000064341,17716,MGI:101787
 mt-Co1,ENSMUSG00000064351,17708,MGI:102504                                                                                           
 Phax,ENSMUSG00000008301,56698,MGI:1891839                                                                                              
 
+[ Trial dataset for this R script can be downloaded from:                                                                               
+https://data.mendeley.com/datasets/454s2vw255/1/files/edbf75de-5f56-4c37-b855-d6e3f91160f6 (mouse data)                                 
+The data should be extracted from the compressed folder before running the script.]             
+
 Output data                                                                                                                            
 Missing_IDs.csv (list of missing gene IDs in Ensembl data)                                                                           
 Multiplied_Ensembl_IDs_final.csv (list of Ensembl gene IDs assigned to more than one official gene symbol in Ensembl database)         
