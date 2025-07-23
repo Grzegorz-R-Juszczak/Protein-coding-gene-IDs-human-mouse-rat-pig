@@ -1,3 +1,9 @@
+########################################################################################################
+#### Trial dataset for this R script can be downloaded from                                         ####
+#### https://data.mendeley.com/datasets/454s2vw255/1/files/41150316-400d-48ad-ad12-01f89256c1d6     ####
+#### The data should be extracted from the compressed folder before running the script.             #### 
+########################################################################################################
+
 GENES_RAT = read.delim('GENES_RAT.txt', sep='\t', header = TRUE) # importing data (tab deleamited)
 head(GENES_RAT, n = 4) # showing first n rows
 
