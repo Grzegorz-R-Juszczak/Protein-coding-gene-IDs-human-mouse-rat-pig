@@ -1,3 +1,9 @@
+########################################################################################################
+#### Trial dataset for this R script can be downloaded from                                         ####
+#### https://data.mendeley.com/datasets/454s2vw255/1/files/bfc0a880-afb9-4c72-8c58-afadc85cf53e     ####
+#### The data should be extracted from the compressed folder before running the script.             #### 
+########################################################################################################
+
 # part A – identification of ambiguous synonyms
 mart_export_1 <- read.delim('mart_export.txt', sep=',', header = TRUE) # data import
 head(mart_export_1, n=40) # showing first n rows
