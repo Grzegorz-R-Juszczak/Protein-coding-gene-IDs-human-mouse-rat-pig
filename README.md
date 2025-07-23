@@ -59,6 +59,10 @@ ENSMUSG00000064345,mt-Nd2
 ENSMUSG00000064351,mt-Co1                                                                                                               
 ENSMUSG00000064354,mt-Co2                                                                                                               
 
+[ Trial dataset for this R script can be downloaded from                                        
+https://data.mendeley.com/datasets/454s2vw255/1/files/b3800d61-6988-4fd4-97e5-b3f50bfbacc8.   
+The data should be extracted from the compressed folder before running the script.]             
+
 Output data                                                                                                                             
 Results are exported to following files:                                                                                                
 All_unique_protein_coding.csv (list of unique gene symbols together with Ensembl stable IDs)                                           
