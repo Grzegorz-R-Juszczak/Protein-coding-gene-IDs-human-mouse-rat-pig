@@ -1,3 +1,9 @@
+########################################################################################################
+#### Trial dataset for this R script can be downloaded from                                         ####
+#### https://data.mendeley.com/datasets/454s2vw255/1/files/38438fb8-b4f9-4c3b-8e36-7b7f7ace017e     ####
+#### The data should be extracted from the compressed folder before running the script.             #### 
+########################################################################################################
+
 hgnc <- read.delim('hgnc-search-1734202353314.txt', sep='\t', header = TRUE) # data import
 head(hgnc, n=4) # showing first n rows
 
