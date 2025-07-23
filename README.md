@@ -147,6 +147,9 @@ Gene Synonym,Gene name,Gene stable ID
 ND1,mt-Nd1,ENSMUSG00000064341                                                                                                           
 protein 1,mt-Nd1,ENSMUSG00000064341                                                                                                     
 
+[ Trial dataset for this R script can be downloaded from  https://data.mendeley.com/datasets/454s2vw255/1/files/43562d2c-c52d-42ff-ba93-da869fb83453                                      
+The data should be extracted from the compressed folder before running the script.]             
+
 Output data                                                                                                                             
 Unique_gene_synonyms.csv (lists of unique synonyms)                                                                                   
 Unique_gene_symbols.csv files (lists of official symbols)                                                                             
