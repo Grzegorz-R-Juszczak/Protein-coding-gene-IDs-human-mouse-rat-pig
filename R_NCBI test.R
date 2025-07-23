@@ -1,3 +1,9 @@
+########################################################################################################
+#### Trial dataset for this R script can be downloaded from                                         ####
+#### https://data.mendeley.com/datasets/454s2vw255/1/files/070e363b-83b5-4e33-8705-734e5268b84f     ####
+#### The data should be extracted from the compressed folder before running the script.             #### 
+########################################################################################################
+
 ncbi_dataset = read.delim('ncbi_dataset.tsv', sep='\t', header = TRUE) # data import (tab deleamited)
 head(ncbi_dataset, n = 4) # showing first n rows
 
