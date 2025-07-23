@@ -1,3 +1,9 @@
+########################################################################################################
+#### Trial dataset for this R script can be downloaded from                                         ####
+#### https://data.mendeley.com/datasets/454s2vw255/1/files/87ff9c3d-9734-47b8-b483-de122e00775d     ####
+#### The data should be extracted from the compressed folder before running the script.             #### 
+########################################################################################################
+
 AGS1 = read.delim('Ambiguous_gene_synonyms_final.csv', sep=',', header = TRUE) # importing data
 head(AGS1, n=4) # showing first n rows
 
