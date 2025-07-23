@@ -1,3 +1,9 @@
+########################################################################################################
+#### Trial dataset for this R script can be downloaded from                                         ####
+#### https://data.mendeley.com/datasets/454s2vw255/1/files/fd399949-da35-4e3a-897a-acb831fcf0cf     ####
+#### The data should be extracted from the compressed folder before running the script.             #### 
+########################################################################################################
+
 #### Ensembl data import ####
 
 mart_export_1 <- read.delim('mart_export.txt', sep=',', header = TRUE) # data importing
