@@ -9,6 +9,7 @@ The repository contains programs enabling extraction of information about gene i
 Background                                                                                                                            
 Gene nomenclature changed over time due to new discoveries and between-species standardization efforts. Therefore, it contains both current official symbols and synonyms (aliases) that were used in the past. The issue is further complicated by the fact that each gene has a different history of scientific investigation and associated assignment of gradually refined names. Therefore, genetic datasets contain both gene symbols that did not changed since the time of publication (official symbols) and some number of obsolete symbols (synonyms) that were updated after the publication of the data. This means that comparison between genetic datasets obtained from different sources requires standardization of gene nomenclature. 
 
+Trial datasets                                                                                                                      
 Trial datasets for all R script can be downloaded from https://data.mendeley.com/datasets/454s2vw255/1.
 Links to individual trial datasets are provided at the beginning of each R script.         
 
