@@ -1,3 +1,9 @@
+########################################################################################################
+#### Trial dataset for this R script can be downloaded from                                         ####
+#### https://data.mendeley.com/datasets/454s2vw255/1/files/b8d3ea22-00df-4645-b40b-298cbf862363     ####
+#### The data should be extracted from the compressed folder before running the script.             #### 
+########################################################################################################
+
 mart_export_1 <- read.delim('mart_export.txt', sep=',', header = TRUE) # data importing
 head(mart_export_1, n=20) # showing first n rows
 
