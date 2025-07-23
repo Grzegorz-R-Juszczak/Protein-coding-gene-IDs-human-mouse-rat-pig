@@ -377,6 +377,9 @@ https://www.ncbi.nlm.nih.gov/datasets/gene/GCF_000001635.27/  (mouse reference g
 https://www.ncbi.nlm.nih.gov/datasets/gene/GCF_015227675.2/  (Rattus norvegicus genome mRatBN7.2) with all selected columns
 https://www.ncbi.nlm.nih.gov/datasets/gene/GCF_000001405.40/ (human reference genome GRCh38.p14) with all selected columns
 
+[ Trial dataset for this R script can be downloaded from  https://data.mendeley.com/datasets/454s2vw255/1/files/070e363b-83b5-4e33-8705-734e5268b84f                                      
+The data should be extracted from the compressed folder before running the script.]             
+
 Output data                                                                                                                             
 Verification_missing_NCBI_IDs.csv (list of Ensembl genes with missing  NCBI IDs merged with gene identifiers retrieved directly from NCBI database)                                                                                                                   
 Summary_NCBI_IDs_ambiguous_in_Ensembl.csv (list of NCBI IDs assigned in Ensembl database to more than one official gene symbol together with gene identifiers retrieved directly from NCBI database)                                                                           
