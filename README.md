@@ -35,6 +35,10 @@ Ttr
 Kl                                                                                                                                      
 Arg                                                                                                                                  
 
+[ Trial dataset for this R script can be downloaded from:                                                                               
+https://data.mendeley.com/datasets/454s2vw255/1/files/bba53b25-29fe-4c55-9564-8ad4fcb6ec62 (mouse genes)                                
+The data should be extracted from the compressed folder before running the script.]             
+
 Output data                                                                                                                             
 The updated official symbols together with information about their ambiguity, gene description and additional IDs is exported to the Final_search_results.csv file. Additionally, the script imports and saves biomaRt codes for selecting Ensembl databases (file EnsemblDatabases.csv), datasets (EnsemblDatasets.csv), filters (file EnsemblFilters.csv) and output data called attributes in Ensembl (EnsemblAttributes.csv). These data provide information about current code including the version of Ensembl used for data downloading (file EnsemblDatabases.csv) and enable code modifications including species (EnsemblDatasets.csv) and output data associated with updated genes (file EnsemblAttributes.csv).
 
