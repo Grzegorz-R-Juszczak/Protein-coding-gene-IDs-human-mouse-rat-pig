@@ -285,6 +285,7 @@ Statistics: Total Approved Symbols
 [ Trial dataset for this R script can be downloaded from:                                                                              
 https://data.mendeley.com/datasets/454s2vw255/1/files/fd399949-da35-4e3a-897a-acb831fcf0cf (mouse genes)                               
 https://data.mendeley.com/datasets/454s2vw255/1/files/84daa43d-5ebc-463d-b006-f2ed347374d4 (rat genes)                                 
+https://data.mendeley.com/datasets/454s2vw255/1/files/1dbebafa-3a45-4982-9682-cbdf2477bc60 (human genes)                               
 The data should be extracted from the compressed folder before running the script.]             
 
 Output data                                                                                                                             
