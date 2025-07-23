@@ -122,6 +122,9 @@ ENSMUSG00000006378,Gcat,15,78915074,78922553,1
 ENSMUSG00000006471,Ndor1,2,25134833,25146034,-1                                                                                         
 ENSMUSG00000020807,4933427D14Rik,11,72044755,72098285,-1                                                                                
 
+[ Trial dataset for this R script can be downloaded from   https://data.mendeley.com/datasets/454s2vw255/1/files/aeff59d8-1fdf-46fe-b960-be5bbc36d53e                                       
+The data should be extracted from the compressed folder before running the script.]             
+
 Output data                                                                                                                             
 Genes_with_scaffold_locus.csv (list of IDs assigned to scaffolds)                                                                  
 Multiplied_symbols_DifferentChromosemes_Autosomal.csv (list of alternative Ensembl IDs that are assigned to different chromosomes including at least one autosomal chromosome)                                                                                          
