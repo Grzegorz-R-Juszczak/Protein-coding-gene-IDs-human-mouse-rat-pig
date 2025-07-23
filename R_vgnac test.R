@@ -1,3 +1,9 @@
+########################################################################################################
+#### Trial dataset for this R script can be downloaded from                                         ####
+#### https://data.mendeley.com/datasets/454s2vw255/1/files/1392d1f9-f950-4d35-b3dd-4a9b4487b5a4     ####
+#### The data should be extracted from the compressed folder before running the script.             #### 
+########################################################################################################
+
 vgnc <- read.delim('pig_vgnc_gene_set_All.txt', sep='\t', header = FALSE) # data import
 head(vgnc, n=4) # showing first n rows
 colnames(vgnc) <- c("vgnc_id", "symbol", "name", "locus_group", "locus_type", "status", "location", "location_sortable", "alias_symbol", "alias_name", "prev_symbol", "prev_name", "gene_family", "gene_family_id", "date_approved_reserved", "date_symbol_changed", "date_name_changed", "date_modified", "ncbi_id", "ensembl_gene_id", "uniprot_ids", "pubmed_id", "horde_id", "error_column", "hgnc_orthologs") # setting column names including erroneous column V24
