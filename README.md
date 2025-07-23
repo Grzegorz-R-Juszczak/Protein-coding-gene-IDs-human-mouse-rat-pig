@@ -452,5 +452,8 @@ Filter statistics and download files by species: Pig
 Filter statistics and download files by chromosome: All 
 Statistics: Total Approved Symbols
 
+[ Trial dataset for this R script can be downloaded from  https://data.mendeley.com/datasets/454s2vw255/1/files/1392d1f9-f950-4d35-b3dd-4a9b4487b5a4                                      
+The data should be extracted from the compressed folder before running the script.]             
+
 Output data                                                                                                                   
 Verification_missing_VGNC_IDs.csv (list of Ensembl genes with missing  VGNC IDs merged with gene identifiers retrieved directly from VGNC database)
